@@ -1,0 +1,106 @@
+/*global*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: black;
+}
+
+img{
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+/*utilities*/
+
+/*menu*/
+nav.menu {
+    background-color: white;
+    height: 50px;
+    display: flex;
+    justify-content: Space-between;
+}
+
+#natGeoLogo {
+    height: 35px;
+    margin-top: 8px;
+    margin-left: 10px;
+    padding: 0;
+}
+
+.icons{
+    align-self: flex-end;
+    margin-bottom: 15px;
+}
+
+
+.login-icons {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 900;
+    letter-spacing: 3px;
+    color: black;
+    margin-right: 20px;
+}
+.subscribe-icons {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 900;
+    color: white;
+    background-color: black;
+    letter-spacing: 3px;
+    padding: 20px;
+    margin-right: 20px;
+}
+
+.fa-search, .icon-renew, .icon-menu{
+    display: none;
+    margin-right: 20px;
+}
+
+.fa-angle-double-down{
+    margin-right: 20px;
+}
+/* header */
+
+header {
+    height: 230px;
+}
+.page_title {
+    color: white;
+    font-size: 36pt;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.title_description {
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 20px;
+    letter-spacing: 1px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.highLight {
+    border-bottom: yellow solid 2px;
+}
+/* Not highlight on hover */
+.highLight:hover {
+    background-color: yellow;
+    color: black;
+}
+
+.header_line {
+    width: 30px;
+    border: yellow 2px solid;
+    margin-left: 140px;
+    margin-top: 20px;
+}
